@@ -1,0 +1,18 @@
+
+:root{
+    --primary-color:#2874f0;
+
+    /* for header */
+    --header-text-fonts-sizes:16px;
+    --header-text-fonts-color:white;
+    --header-text-font-family:Roboto,Arial,sans-serif;
+    --header-text-font-weights:550;
+    /* header part is over */
+
+    /* cards part */
+    --card-primary-color:#878787;
+    --font-size:14px;
+    --font-weight:550;
+    /* over cards part */
+}
+

@@ -1,0 +1,14 @@
+.form-group{
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+
+.form-label{
+    margin-top: .1rem;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 540;
+    font-family: Roboto,Arial,sans-serif;
+    color:#212121;
+}

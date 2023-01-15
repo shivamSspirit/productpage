@@ -1,0 +1,69 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+
+.sortby-container {
+    border-bottom: .7px solid #acacac;
+}
+
+.sortby-content {
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.product-type {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.p-type-title {
+    font-weight: 550;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.p-description {
+    color: #878787;
+    font-size: 12px;
+}
+
+.sort-by-price {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.s-title {
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 15px;
+    padding-bottom: .4rem;
+}
+
+.p-bar {
+    font-size: 14px;
+    padding-bottom: .4rem;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 2px solid #2874f0;
+    color: #2874f0;
+    font-weight: 550;
+}
+
+.cards-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}

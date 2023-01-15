@@ -1,0 +1,146 @@
+@import url(../../assests/css/theme.css);
+
+.header-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    display: flex;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.img-block {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.img-content {
+    width: auto;
+}
+
+.flipkart-img {
+    width: 75px;
+    height: 20px;
+}
+
+.exp-title {
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -7px;
+    color: white
+}
+
+.plus-title {
+    color: #ffe500;
+    font-weight: 550;
+    margin-left: 2px;
+}
+
+.plus-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.search-block {
+    width: 30%;
+    position: relative;
+}
+
+.search-box {
+    width: 100%;
+    height: 2.1rem;
+    outline: none;
+    border-radius: 2px;
+    border: 1.1px solid #dbdbdb;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.log-btn-block {
+    width: 10%;
+}
+
+.log-btn {
+    width: 100%;
+    padding: .4rem;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: var(--header-text-font-weights);
+    font-size: var(--header-text-fonts-sizes);
+    font-family: var(--header-text-font-family);
+}
+
+.seller-title {
+    line-height: 20px;
+    font-weight: var(--header-text-font-weights);
+    font-size: var(--header-text-fonts-sizes);
+    font-family: var(--header-text-font-family);
+    letter-spacing: .1px;
+    color: #fff;
+}
+
+.more-block {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.more-title {
+    margin-bottom: .2rem;
+}
+
+.more-item {
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: var(--header-text-font-weights);
+    font-size: var(--header-text-fonts-sizes);
+    font-family: var(--header-text-font-family);
+    color: #fff;
+}
+
+.wh-arrow-down {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+
+}
+
+.cart-block {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cart-title {
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: var(--header-text-font-weights);
+    font-size: var(--header-text-fonts-sizes);
+    font-family: var(--header-text-font-family);
+    color: #fff;
+}
+
+.wh-cart {
+    width: 20px;
+    height: 20px;
+}

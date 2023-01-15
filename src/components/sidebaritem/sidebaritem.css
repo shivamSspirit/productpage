@@ -1,0 +1,49 @@
+.sidebar-item {
+    padding: 1em;
+    font-size: 1.1em;
+    display: block;
+}
+
+.sidebar-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drops-name{
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.arrow-down{
+    margin-top: .1rem;
+    width: 15px;
+    height: 15px;
+}
+
+.sidebar-title span img {
+    display: inline-block;
+    width: 1.5em;
+}
+
+.sidebar-title .arrow-down {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.sidebar-item.open .sidebar-title .arrow-down {
+    transform: rotate(180deg);
+}
+
+.sidebar-content {
+    padding-top: .25em;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.sidebar-item.open .sidebar-content {
+    height: auto;
+}

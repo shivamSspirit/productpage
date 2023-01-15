@@ -1,0 +1,254 @@
+@import url(../../assests/css/theme.css);
+
+.filter-side-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.filter-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.clear-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .6rem;
+}
+
+.filter-txt {
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 67%;
+}
+
+.clear-filter {
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding-top: 0.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.category-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.category-block {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.cate-title {
+    font-size: 12px;
+    font-weight: 590;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.cate-ass {
+    display: inline-block;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.arrow-left {
+    width: 12px;
+    height: 12px;
+}
+
+.gender-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.f-assured-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.f-assured-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.f-assured-img {
+    width: 77px;
+    height: 21px;
+    padding-right: 8rem;
+}
+
+.question-mark {
+    border: 1px solid #f1f3f6;
+    padding: 1.5px;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+}
+
+.price-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.prices {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+
+.price-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .6rem;
+}
+
+.price-title {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+}
+
+.clear-title {
+    cursor: pointer;
+    color:var(--primary-color);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.price-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: .9px;
+    padding: .3rem;
+}
+
+.p-block {
+    width: 14.5%;
+    background-color: #e0e0e0;
+    height: 25px;
+}
+
+.price-range-input {
+    width: auto;
+    padding-left: .3rem;
+}
+
+.p-dot-block {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: .3rem;
+    margin-top: -13px;
+}
+
+.p-dot {
+    color: #c2c2c2;
+    font-size: 20px;
+}
+
+.p-range-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+/* for select */
+
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+:root {
+    --select-border: #e0e0e0;
+    --select-arrow: black;
+}
+
+.selects {
+    width: 50%;
+    min-width: 13ch;
+    max-width: 10ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0em;
+    padding: 0.25em 0.5em;
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    display: grid;
+    grid-template-areas: "select";
+    align-items: center;
+}
+
+.selects::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--select-arrow);
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+}
+
+select,
+.selects:after {
+    grid-area: select;
+}
+
+/* end for select */
+
+.brand-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.size-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.discount-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.rating-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.offer-content {
+    border-bottom: 1px solid #f1f3f6;
+}
+
+.availability-content {
+    border-bottom: 1px solid #f1f3f6;
+}

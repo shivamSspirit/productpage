@@ -1,0 +1,11 @@
+.main-container{
+    width: 100vw;
+    height: auto;
+}
+
+.asides{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
