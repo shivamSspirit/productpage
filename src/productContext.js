@@ -15,7 +15,7 @@ const ProductContext = ({children})=>{
 
     useEffect(() => {
         axios
-          .get('http://localhost:3001/products')
+          .get('https://json-server-iota-nine.vercel.app/products')
           .then(response => {
             setproducts(response.data)
           })
